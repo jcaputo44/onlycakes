@@ -135,3 +135,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 TAGGIT_CASE_INSENSITIVE=True
 
+CSRF_TRUSTED_ORIGINS = ['https://onlycakes.up.railway.app', 'http://onlycakes.up.railway.app']
