@@ -70,3 +70,8 @@
 - [ ] Tag Search   
 - [ ] Comment Section   
 - [ ] Blocker to stop search if no input is entered.
+
+
+setting.py 
+import django_on_heroku
+django_on_heroku.settings(locals())
