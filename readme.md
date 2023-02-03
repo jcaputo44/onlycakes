@@ -78,3 +78,4 @@ django_on_heroku.settings(locals())
 
 procfile
 web: gunicorn onlycakes.wsgi
+
