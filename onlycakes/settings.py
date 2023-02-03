@@ -25,7 +25,6 @@ SECRET_KEY = 'django-insecure-o6-t%8h-vr1zq(p+btb9!wzflw(67v_e!a7as&3f@(ow!!%z$o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-CSRF_TRUSTED_ORIGINS = ['https://onlycakes.up.railway.app', 'http://onlycakes.up.railway.app']
 ALLOWED_HOSTS = []
 
 import environ
@@ -139,5 +138,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 TAGGIT_CASE_INSENSITIVE=True
 
-import django_on_heroku
-django_on_heroku.settings(locals())
