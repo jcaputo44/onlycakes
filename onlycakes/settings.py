@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-o6-t%8h-vr1zq(p+btb9!wzflw(67v_e!a7as&3f@(ow!!%z$o
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['onlycakes.up.railway.app']
 
 import environ
 environ.Env()
